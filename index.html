@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="auto">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Turath — تراث</title>
+  <meta name="description" content="Carnet personnel : mémorisation du Coran, hadiths, savants, livres et maisons d'édition.">
+  <meta name="theme-color" content="#15130f">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Turath">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Noto+Naskh+Arabic:wght@400;600&family=Reem+Kufi:wght@500;700&family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/accueil" aria-label="Turath, accueil">
+      <img class="brand-mark" src="icon.svg" alt="" width="30" height="30">
+      <span class="brand-fr">Turath</span><span class="brand-ar" lang="ar">تراث</span>
+    </a>
+    <div class="top-actions"><a class="top-btn" href="#/recherche" data-page="recherche" aria-label="Recherche"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg></a><a class="top-btn" href="#/reglages" data-page="reglages" aria-label="Réglages"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></a></div>
+  </header>
+
+  <nav class="nav" aria-label="Navigation principale">
+    <a href="#/accueil" data-page="accueil"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5 12 4l8 6.5V19a1 1 0 0 1-1 1h-4.5v-5.5h-5V20H5a1 1 0 0 1-1-1z"/></svg><span class="n-fr">Accueil</span><span class="n-ar" lang="ar">الرئيسية</span></a>
+    <a href="#/coran" data-page="coran"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7c-1.8-1.4-4.6-2-8-1.6v12.2c3.4-.4 6.2.2 8 1.6 1.8-1.4 4.6-2 8-1.6V5.4C16.6 5 13.8 5.6 12 7z"/><path d="M12 7v12.2"/></svg><span class="n-fr">Coran</span><span class="n-ar" lang="ar">القرآن</span></a>
+    <a href="#/priere" data-page="priere"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c-3.3 2.4-5 4.6-5 7h10c0-2.4-1.7-4.6-5-7z"/><path d="M5 10h14v10H5zM10 20v-4a2 2 0 0 1 4 0v4"/></svg><span class="n-fr">Prière</span><span class="n-ar" lang="ar">الصلاة</span></a>
+    <a href="#/dhikr" data-page="dhikr"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 13V6.5a1.5 1.5 0 0 1 3 0V12M11 11V5a1.5 1.5 0 0 1 3 0v6M14 11V7a1.5 1.5 0 0 1 3 0v7a6 6 0 0 1-6 6h-.5A5.5 5.5 0 0 1 5 14.5V11a1.5 1.5 0 0 1 3 0"/></svg><span class="n-fr">Dhikr</span><span class="n-ar" lang="ar">الأذكار</span></a>
+    <a href="#/science" data-page="science"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19.5V5a1.5 1.5 0 0 1 1.5-1.5H11v15H5.5A1.5 1.5 0 0 0 4 20z"/><path d="M20 19.5V5a1.5 1.5 0 0 0-1.5-1.5H13v15h5.5A1.5 1.5 0 0 1 20 20z"/></svg><span class="n-fr">Science</span><span class="n-ar" lang="ar">العلم</span></a>
+    <a class="nav-extra" href="#/recherche" data-page="recherche"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg><span class="n-fr">Recherche</span><span class="n-ar" lang="ar">البحث</span></a>
+    <a class="nav-settings" href="#/reglages" data-page="reglages"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg><span class="n-fr">Réglages</span><span class="n-ar" lang="ar">الإعدادات</span></a>
+  </nav>
+
+  <main id="view" class="view"></main>
+
+  <div id="player" class="player" hidden></div>
+  <div id="modal" class="modal" hidden></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="quran-data.js"></script>
+  <script src="app.js"></script>
+  <script src="lecture.js"></script>
+  <script src="priere.js"></script>
+  <script src="dhikr.js"></script>
+  <script src="science.js"></script>
+  <script src="boot.js"></script>
+</body>
+</html>
